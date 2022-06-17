@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;800&family=Nunito&display=swap');
+
+* main {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    background-color: rgb(226, 220, 220);
+    
+}
+header{
+    font-family: 'Lexend-Deca', sans-serif;
+    font-style: NONE;
+    color: white;
+        
+}
+a:link{
+    text-decoration: none;  
+    
+}
+
+main {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Lexend-Deca', sans-serif;
+    font: bolder;
+}
+main p {
+    font-family: 'Lexend-Deca', sans-serif;
+    font: bolder;
+}
+.sedan {
+    background-color: rgb(189, 110, 8);
+    padding: 2em;
+    color: white;
+    height: 350px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.botton-sedan {
+    background-color: white;
+    height: 20px;
+    /* width: 60%; */
+    padding: 0.5em;
+    border-radius: 10px;
+    color: rgb(189, 110, 8);
+    position: absolute;
+    bottom: 9rem;
+    
+}
+.suv {
+    background-color: rgba(2, 122, 122, 0.973);
+    padding: 2em;
+    color: white;
+    height: 350px;
+
+}
+.botton-suv {
+    background-color: white;
+    height: 20px;
+    /* width: 60%; */
+    padding: 0.5em;
+    border-radius: 10px;
+    color: rgba(2, 122, 122, 0.973);
+    position: absolute;
+    bottom: 9rem;
+}
+.luxury {
+    background-color: rgb(3, 36, 24);
+    padding: 2em;
+    color: white;
+    height: 350px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.botton-luxury {
+    background-color: white;
+    height: 20px;
+        padding: 0.5em;
+    border-radius: 10px;
+    color: rgb(3, 36, 24);
+    position: absolute;
+    bottom: 9rem;
+}
+
+   
+/* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    .botton-sedan{
+        position: absolute;
+    bottom: auto;
+    }
+    .botton-suv{
+        position: absolute;
+    bottom: auto;
+    }
+    .botton-luxury{
+        position: absolute;
+    bottom: auto;
+    }
+
+} */
